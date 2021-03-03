@@ -1,0 +1,46 @@
+student = {
+"FName" : "james",
+"LName" : "Bond",
+"phone no." : 748978882,
+"Email" : "jamesbond@gmail.com"
+}
+print(student)
+car ={
+"brand" : "Ford",
+"electric" : "false",
+"year" : 2015,
+"colors" : ["red","white","blue"]
+}
+print(car)
+vehicle ={
+"brand" : "ford",
+"model" : "mustang",
+"year" : 1964
+}
+x = vehicle["model"]
+y = vehicle["year"]
+z = vehicle["brand"]
+print(x)
+print(y)
+print(z)
+car = {
+"brand" : "ford",
+"model" : "mustang",
+"year" : 1964
+}
+car["year"] = 2018
+print(car)
+
+car = {
+"brand" : "ford",
+"model" : "Mustang",
+"year" : 1964
+}
+for x in car:
+  print(x)
+  for x in car.values():
+     print(x)
+  for x in car.keys():
+    print(x)
+    for x,y in car.items():
+      print(x,y)
